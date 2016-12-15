@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<!--SMALL FLOWERS GLITCHY GIF, PINK PLASTIC-->
+
+<head>
+    <style>
+        
+      img.bg
+        {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        
+        img.vertical
+        {
+            position: relative;
+            top:400px;
+            left:1300px;
+            width: 30%;
+            height: 30%;
+        }
+        
+        img.pink
+        {
+            position: absolute;
+            left: 1150px;
+            top: 300px;
+            width: 300px;
+            height: 500px;;
+            opacity: .5;
+        }
+        
+        body
+        {
+            background-color: black;
+        }
+        
+        #layer1
+        {
+            z-index: 10;
+        }
+        
+        #layer2
+        {
+            z-index: 20;
+        }
+        
+        #layer3
+        {
+            z-index: 30;
+        }
+        
+   </style> 
+</head>
+
+<body>
+    
+    <img class="bg" id="layer1" src="fabric_scan_loop5_v1.gif">
+    <img class="vertical" id="layer2" src="fabric_scan2_loop2_v1_vertical.gif">
+    <img class="pink" id="layer3" src="Scan%2039.png">
+    <audio autoplay loop src="FMradiomix.wav"></audio>
+    
+</body>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!--RED/YELLOW/BLUE WITH FLOWERS-->
+
+<head>
+    <style>
+        
+        img.receipt
+        {
+            position: relative;
+            left: 1400px;
+            top:400px;
+            width: 25%;
+            height: 25%;
+        }
+        
+        img.tag
+        {
+            position: absolute;
+            left: 1300px;
+            top: 500px;
+           
+            
+        }
+       video.vid
+        {
+            position: absolute;
+            left: 0px;
+            top: 0px; 
+        }
+        
+        body
+        {
+            background-color: black;
+        }
+        #layer1
+        {
+            z-index: 10;
+        }
+        
+        #layer2
+        {
+            z-index: 20;
+        }
+        
+        #layer3
+        {
+            z-index: 30;
+        }
+        
+   </style> 
+</head>
+
+<body>
+    
+    <video class="vid" id="layer1" autoplay loop src="fabric_loop8_v1.mp4"></video>   
+    <img class="receipt" id="layer2" src="goodwillreceipt.png">
+    <audio autoplay loop src="goodwillmix.wav"></audio>
+    <img class="tag" id="layer2" src="goodwilltag.png">
+    
+</body>
